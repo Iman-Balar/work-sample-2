@@ -1,0 +1,133 @@
+html , body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.my-bg{
+    width: 90em;
+    height: 100%;
+    opacity: 65%;
+}
+
+.black-box{
+    position: absolute;
+    top: 0;
+    left: 10;
+    background-color: rgba(0, 0, 0, 0.93);
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 0, 65% 0, 55% 100%, 0 100%);
+}
+
+.main-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    top: 26%;
+    left: 12.5%;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 55px;
+}
+
+.detail-text{
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 12.5%;
+    font-size: 20px;
+    /* letter-spacing: 1px; */
+}
+
+#mail{
+    position: absolute;
+    top: 65.2%;
+    left: 12.5%;
+    width: 22%;
+    height: 57px;
+    padding-left: 15px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline-style: none;
+}
+
+.Exclamation{
+    color: red;
+    position: absolute;
+    top: 68%;
+    left: 32.1%; 
+    font-size: 18px;
+    display: none;
+}
+
+#btn {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #1E3B3B;
+    color: #A9AAAA;
+    width: 125px;
+    height: 58px;
+    position: absolute;
+    top: 65%;
+    left: 36%; 
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: default;
+}
+
+.twitter{
+    padding: 20px 0;
+    color: white;
+    position: absolute;
+    top: 32%;
+    left: 92%;
+    font-size: 18px;
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.facebook{
+    padding: 20px 0;
+    color: #fff;
+    position: absolute;
+    top: 46%;
+    left: 92%;
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer; 
+}
+
+.instagram{
+    padding: 20px 0;
+    color: white;
+    position: absolute;
+    top: 59%;
+    left: 92%;
+    font-size: 18px;
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer; 
+}
